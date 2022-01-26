@@ -1,0 +1,4 @@
+How to compile a C++ work graphics by OpenGl
+g++ filename -lglut -lGL -lGLEW -lGLU -o program-name
+To open the file
+./program-name
