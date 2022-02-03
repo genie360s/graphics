@@ -2,3 +2,10 @@ How to compile a C++ work graphics by OpenGl
 g++ filename -lglut -lGL -lGLEW -lGLU -o program-name
 To open the file
 ./program-name
+
+
+other way
+
+gcc filename.c -lGL -lGLU -lglut -lm 
+where filename.c is the name of the file
+with which this program is saved.
